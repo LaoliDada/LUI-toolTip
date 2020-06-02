@@ -10,8 +10,9 @@
     min-width: 10px;
     border-radius: 4px;
     padding: 10px;
-    max-width: 420px;
+    min-width:10px;
     transition: opacity .3s linear;
+    word-break: break-all;
 }
 .lui-tooltip-wrapper:after{
     content:"";
