@@ -1,0 +1,26 @@
+.lui-tooltip-wrapper{
+    display:none;
+    position: absolute;
+    left:0px;
+    top:0px;
+    background: #303133;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+    min-width: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 420px;
+    transition: opacity .3s linear;
+}
+.lui-tooltip-wrapper:after{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    left:-12px;
+    border-right-color:#303133;
+}
